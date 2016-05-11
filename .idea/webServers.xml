@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="22719978-26db-4fc6-af2c-97260fcf07fe" name="twatter.wmapp.uk" url="http://upload.lcn.com">
+        <fileTransfer host="upload.lcn.com" port="21" password="dfc4dfc5dfdedfc2dfcbdfc4dfc1dfd9df98" username="ftp_wmapp_uk">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

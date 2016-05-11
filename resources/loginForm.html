@@ -1,0 +1,32 @@
+<div class="blog-header">
+    <h1 class="blog-title">Login</h1>
+    <p class="lead blog-description">Please login or create an account.</p>
+</div>
+<div class="row">
+    <div class="col-sm-8 blog-main">
+        <p id="response"></p><form name="loginForm" role="form" onsubmit="validateLogin(); return false;">
+        <div class="form-group" id="emailField" style="display: none">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group" id="usernameField">
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id="username">
+        </div>
+        <div class="form-group" id="passwordField">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" id="rememberCheck"> Remember me</label>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" id="signupCheck"> New account</label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+        <div style="color: red">
+        <small>Please note, there is NOT a secure connection to the server. Passwords will
+            not be safe during transmission but they will be stored securely.</small><p>Do NOT signup OR login on an unsecured network.</p>
+        </div>
+    </div>
