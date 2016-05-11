@@ -89,8 +89,8 @@ if($signup === "false") {
                     //now email them the validation token
                     $message = "Thank you for signing up to Twatter! Please either click this link or copy it into your browser to validate your account. \n http://twitter.wmapp.uk/publicFunctions/validate.php?t=" . $emailConfirm;
                     $subject = 'Validate Account';
-                    $headers = 'From: no-reply@twatter.wmapp.uk' . "\r\n" .
-                        'Reply-To: no-reply@twatter.wmapp.uk' . "\r\n" .
+                    $headers = 'From: no-reply@twitter.wmapp.uk' . "\r\n" .
+                        'Reply-To: no-reply@twitter.wmapp.uk' . "\r\n" .
                         'X-Mailer: PHP/' . phpversion();
                     mail($email, $subject, $message, $headers);
                 }else{
