@@ -38,23 +38,18 @@ if(!$accountPage || $accountPage === 0)
     //and if you want followers only
     if($allPosts === "false"){
         $follows = getFollows($mysqli, $userID);
-        if(sizeof($follows) < 1) {
-            $responseText = "You're not following anyone.";
-            $responseType = 0;
-            die(json_encode(array('text' => $responseText, 'type' => $responseType)));
-        }
+//        if(sizeof($follows) < 1) {
+//            $responseText = "You're not following anyone.";
+//            $responseType = 0;
+//            die(json_encode(array('text' => $responseText, 'type' => $responseType)));
+//        }
         //create the user get statement
-        $followSQLString = "`user` = '$userID' OR";
+        $followSQLString = "`user` = '$userID'";
         foreach ($follows as $followID) {
             //if it's the last, there is no OR
-            if ($followID === end($follows)){
-                $followSQLString = $followSQLString."`user`='$followID'";
-            }else{
-                //if not, add another OR to it
-                $followSQLString = $followSQLString."`user`='$followID' OR ";
-            }
+            $followSQLString = $followSQLString." OR `user`='$followID'";
         }
-        //create the sql including the followerss
+//        create the sql including the followerss
         $sqlPosts = $mysqli->query("SELECT * FROM `posts` WHERE $followSQLString ORDER BY `date` DESC LIMIT $limitBottom, $limitTop");
     }else{
         //just get all posts
@@ -90,15 +85,15 @@ if(mysqli_num_rows($sqlPosts)>0){
         //create the html to return, this will be all the posts
         $content = $row['content'];
         $responseText = $responseText."<div class='post'><small class='blog-post-meta'><a id='link' href='?p=account&u=" . $userID . "'>" . $usernames[$userID] . "</a> at " . $date . "</small>
-        <div class='blog-post'><p>$content</p><small class='blog-post-action'><a href=''>Like</a></small></div></div>";
+        <div class='blog-post'><p>$content</p><small class='blog-post-action'></small></div></div>";
     }
     $responseType = 1;
 }else{
     //if there are no posts
     if($allPosts === "true"){
-        $responseText = "Your feed is empty, try posting or looking at all posts.";
+        $responseText = "There are no posts what so ever!";
     }else {
-        $responseText = "There are no posts what so ever!.";
+        $responseText = "Your feed is empty, try posting or looking at all posts.";
     }
     $responseType = 0;
 }
