@@ -51,6 +51,14 @@ function doesUserExist($mysqli,$userID){
     return false;
 }
 
+function doesPostExist($mysqli, $postID){
+    $sqlPost = $mysqli->query("SELECT * FROM `posts` WHERE id='$postID'");
+    if(mysqli_num_rows($sqlPost) > 0){
+        return true;
+    }
+    return false;
+}
+
 function checkSession($mysqli){
     $session = $_COOKIE['twatterSession'];
     $username = $_COOKIE['twatterUser'];
