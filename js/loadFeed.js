@@ -21,8 +21,8 @@ function loadPosts() {
 $(document).ready(function() {
     $("#postContainer").html("Loading posts...");
     loadPosts();
-    //reload posts every 2 seconds
-    setInterval(loadPosts, 2000);
+    //reload posts every 2.5 seconds
+    setInterval(loadPosts, 2500);
 
 
     $("#allPostCheck").click(function (e) {

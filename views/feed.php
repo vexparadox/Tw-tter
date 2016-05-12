@@ -11,4 +11,5 @@
     </nav>
 </div>
 <script src="js/loadFeed.js"></script>
+<script src="js/postInteract.js"></script>
 <script src="js/newPost.js"></script>

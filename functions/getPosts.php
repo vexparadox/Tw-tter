@@ -80,7 +80,7 @@ if(mysqli_num_rows($sqlPosts)>0){
         //create the html to return, this will be all the posts
         $content = $row['content'];
         $responseText = $responseText."<div class='post'><small class='blog-post-meta'><a id='link' href='?p=account&u=" . $userID . "'>" . $usernames[$userID] . "</a> at " . $date . "</small>
-        <div class='blog-post'><p>$content</p><small class='blog-post-action'></small></div></div>";
+        <div class='blog-post'><p>$content</p><small class='blog-post-action' id='postLike' value='{$row['id']}'>Like</small></div></div>";
     }
     $responseType = 1;
 }else{

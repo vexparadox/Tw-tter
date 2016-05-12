@@ -31,15 +31,26 @@ if(!checkSession($mysqli)){
     $responseType = 0;
     die(json_encode(array('text' => $responseText, 'type' => $responseType)));
 }
-
+if($action === "like") {
     $date = time();
     if ($mysqli->query("INSERT INTO `likes` (id, userid, postid, time) 
-        VALUES ('0', '$userID', '$follower', '$date')") === TRUE) {
+        VALUES ('0', '$userID', '$follower', '$date')") === TRUE
+    ) {
         $responseText = "Post liked.";
+        $responseType = 1;
+    } else {
+        $responseText = "There was a database error.";
+        $responseType = 0;
+    }
+}else if($action === "unlike"){
+    if($mysqli->query("DELETE FROM `likes` WHERE userid='$userID' AND postid='$post'") === TRUE){
+        $responseText = "Post un-liked.";
         $responseType = 1;
     }else{
         $responseText = "There was a database error.";
         $responseType = 0;
     }
+
+}
 echo json_encode(array('text' => $responseText, 'type' => $responseType));
 
