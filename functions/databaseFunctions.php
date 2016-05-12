@@ -33,6 +33,21 @@ function isUserIDValidated($mysqli, $userID){
     }
 }
 
+function getNumPostLikes($mysqli, $postID){
+    $sqlPost = $mysqli->query("SELECT * FROM `likes` WHERE postid='$postID'");
+    return mysqli_num_rows($sqlPost);
+}
+
+function postLiked($mysqli, $postID){
+    $loginValue = $_COOKIE['twatterUser'];
+    $userID = getUserID($mysqli, $loginValue);
+    $sqlPost = $mysqli->query("SELECT * FROM `likes` WHERE userid='$userID' AND postid='$postID'");
+    if(mysqli_num_rows($sqlPost) > 0){
+        return true;
+    }
+    return false;
+}
+
 function getUsername($mysqli, $userID){
     $sqlUser = $mysqli->query("SELECT * FROM `users` WHERE id='$userID'");
     return $sqlUser->fetch_row()[2];

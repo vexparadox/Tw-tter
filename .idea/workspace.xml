@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f3cb117-9232-4abd-a8d5-1771b73de405" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/postInteract.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/databaseFunctions.php" afterPath="$PROJECT_DIR$/functions/databaseFunctions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/getPosts.php" afterPath="$PROJECT_DIR$/functions/getPosts.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/postInteract.php" afterPath="$PROJECT_DIR$/functions/postInteract.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/loadFeed.js" afterPath="$PROJECT_DIR$/js/loadFeed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/feed.php" afterPath="$PROJECT_DIR$/views/feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/postInteract.js" afterPath="$PROJECT_DIR$/js/postInteract.js" />
     </list>
     <ignored path="Twatter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,32 +44,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getPosts.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="getPosts.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/getPosts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="82" column="90" selection-start-line="82" selection-start-column="82" selection-end-line="82" selection-end-column="90" />
+            <state relative-caret-position="310">
+              <caret line="86" column="112" selection-start-line="86" selection-start-column="112" selection-end-line="86" selection-end-column="112" />
               <folding>
-                <marker date="1463086076000" expanded="true" signature="1672:1700" placeholder="SELECT * FRO... posts" />
-                <marker date="1463086076000" expanded="true" signature="1672:1758" placeholder="SELECT * FRO... posts" />
-                <marker date="1463086076000" expanded="true" signature="1847:1910" placeholder="SELECT * FRO... posts" />
-                <marker date="1463086076000" expanded="true" signature="2042:2128" placeholder="SELECT * FRO... posts" />
-                <marker date="1463086076000" expanded="true" signature="2266:2355" placeholder="SELECT * FRO... posts" />
-                <marker date="1463086076000" expanded="true" signature="2801:2849" placeholder="SELECT * FRO... users" />
-                <marker date="1463086076000" expanded="true" signature="3527:3627" placeholder="..." />
+                <marker date="1463089696000" expanded="true" signature="1672:1700" placeholder="SELECT * FRO... posts" />
+                <marker date="1463089696000" expanded="true" signature="1672:1758" placeholder="SELECT * FRO... posts" />
+                <marker date="1463089696000" expanded="true" signature="1847:1910" placeholder="SELECT * FRO... posts" />
+                <marker date="1463089696000" expanded="true" signature="2042:2128" placeholder="SELECT * FRO... posts" />
+                <marker date="1463089696000" expanded="true" signature="2266:2355" placeholder="SELECT * FRO... posts" />
+                <marker date="1463089696000" expanded="true" signature="2801:2849" placeholder="SELECT * FRO... users" />
+                <marker date="1463089696000" expanded="true" signature="3940:3976" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postInteract.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="postInteract.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/postInteract.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+            <state relative-caret-position="360">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <marker date="1463085800000" expanded="true" signature="1070:1171" placeholder="INSERT INTO `follows`... " />
-                <marker date="1463085800000" expanded="true" signature="1413:1474" placeholder="DELETE FROM " />
+                <marker date="1463089345000" expanded="true" signature="1066:1163" placeholder="INSERT INTO `follows`... " />
+                <marker date="1463089345000" expanded="true" signature="1405:1466" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -79,8 +78,8 @@
       <file leaf-file-name="loadFeed.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/loadFeed.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,8 +88,8 @@
       <file leaf-file-name="postInteract.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/postInteract.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="360">
+              <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -99,23 +98,25 @@
       <file leaf-file-name="databaseFunctions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/databaseFunctions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="300">
+              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding>
-                <marker date="1463084975000" expanded="true" signature="167:215" placeholder="SELECT * FRO... users" />
-                <marker date="1463084975000" expanded="true" signature="416:464" placeholder="SELECT * FRO... users" />
-                <marker date="1463084975000" expanded="true" signature="416:482" placeholder="SELECT * FRO... users" />
-                <marker date="1463084975000" expanded="true" signature="669:727" placeholder="SELECT * FRO... users" />
-                <marker date="1463084975000" expanded="true" signature="908:948" placeholder="SELECT * FRO... users" />
-                <marker date="1463084975000" expanded="true" signature="1061:1101" placeholder="SELECT * FRO... users" />
-                <marker date="1463084975000" expanded="true" signature="1217:1257" placeholder="SELECT * FRO... users" />
-                <marker date="1463084975000" expanded="true" signature="1421:1461" placeholder="SELECT * FRO... posts" />
-                <marker date="1463084975000" expanded="true" signature="1732:1776" placeholder="SELECT * FRO... users" />
-                <marker date="1463084975000" expanded="true" signature="2355:2383" placeholder="DELETE FROM " />
-                <marker date="1463084975000" expanded="true" signature="2355:2397" placeholder="DELETE FROM " />
-                <marker date="1463084975000" expanded="true" signature="2731:2777" placeholder="SELECT * FRO... follows" />
-                <marker date="1463084975000" expanded="true" signature="2731:2802" placeholder="SELECT * FRO... follows" />
-                <marker date="1463084975000" expanded="true" signature="2967:3013" placeholder="SELECT * FRO... follows" />
+                <marker date="1463089583000" expanded="true" signature="167:215" placeholder="SELECT * FRO... users" />
+                <marker date="1463089583000" expanded="true" signature="416:464" placeholder="SELECT * FRO... users" />
+                <marker date="1463089583000" expanded="true" signature="416:482" placeholder="SELECT * FRO... users" />
+                <marker date="1463089583000" expanded="true" signature="669:727" placeholder="SELECT * FRO... users" />
+                <marker date="1463089583000" expanded="true" signature="912:956" placeholder="SELECT * FRO... likes" />
+                <marker date="1463089583000" expanded="true" signature="1160:1225" placeholder="SELECT * FRO... likes" />
+                <marker date="1463089583000" expanded="true" signature="1387:1427" placeholder="SELECT * FRO... users" />
+                <marker date="1463089583000" expanded="true" signature="1540:1580" placeholder="SELECT * FRO... users" />
+                <marker date="1463089583000" expanded="true" signature="1696:1736" placeholder="SELECT * FRO... users" />
+                <marker date="1463089583000" expanded="true" signature="1900:1940" placeholder="SELECT * FRO... posts" />
+                <marker date="1463089583000" expanded="true" signature="2211:2255" placeholder="SELECT * FRO... users" />
+                <marker date="1463089583000" expanded="true" signature="2834:2862" placeholder="DELETE FROM " />
+                <marker date="1463089583000" expanded="true" signature="2834:2876" placeholder="DELETE FROM " />
+                <marker date="1463089583000" expanded="true" signature="3210:3256" placeholder="SELECT * FRO... follows" />
+                <marker date="1463089583000" expanded="true" signature="3210:3281" placeholder="SELECT * FRO... follows" />
+                <marker date="1463089583000" expanded="true" signature="3446:3492" placeholder="SELECT * FRO... follows" />
               </folding>
             </state>
           </provider>
@@ -137,8 +138,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
+            <state relative-caret-position="220">
+              <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -201,13 +202,13 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/functions/login.php" />
         <option value="$PROJECT_DIR$/views/welcome.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/functions/databaseFunctions.php" />
         <option value="$PROJECT_DIR$/views/feed.php" />
         <option value="$PROJECT_DIR$/js/loadFeed.js" />
         <option value="$PROJECT_DIR$/functions/postInteract.php" />
-        <option value="$PROJECT_DIR$/functions/getPosts.php" />
         <option value="$PROJECT_DIR$/js/postInteract.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/functions/databaseFunctions.php" />
+        <option value="$PROJECT_DIR$/functions/getPosts.php" />
       </list>
     </option>
   </component>
@@ -417,12 +418,12 @@
       <workItem from="1462635527987" duration="2513000" />
       <workItem from="1462808143636" duration="28900000" />
       <workItem from="1463068453166" duration="745000" />
-      <workItem from="1463084821260" duration="1294000" />
+      <workItem from="1463084821260" duration="2602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77050000" />
+    <option name="totallyTimeSpent" value="78358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -786,37 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="129" column="19" selection-start-line="129" selection-start-column="19" selection-end-line="129" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/databaseFunctions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <marker date="1463084975000" expanded="true" signature="167:215" placeholder="SELECT * FRO... users" />
-            <marker date="1463084975000" expanded="true" signature="416:464" placeholder="SELECT * FRO... users" />
-            <marker date="1463084975000" expanded="true" signature="416:482" placeholder="SELECT * FRO... users" />
-            <marker date="1463084975000" expanded="true" signature="669:727" placeholder="SELECT * FRO... users" />
-            <marker date="1463084975000" expanded="true" signature="908:948" placeholder="SELECT * FRO... users" />
-            <marker date="1463084975000" expanded="true" signature="1061:1101" placeholder="SELECT * FRO... users" />
-            <marker date="1463084975000" expanded="true" signature="1217:1257" placeholder="SELECT * FRO... users" />
-            <marker date="1463084975000" expanded="true" signature="1421:1461" placeholder="SELECT * FRO... posts" />
-            <marker date="1463084975000" expanded="true" signature="1732:1776" placeholder="SELECT * FRO... users" />
-            <marker date="1463084975000" expanded="true" signature="2355:2383" placeholder="DELETE FROM " />
-            <marker date="1463084975000" expanded="true" signature="2355:2397" placeholder="DELETE FROM " />
-            <marker date="1463084975000" expanded="true" signature="2731:2777" placeholder="SELECT * FRO... follows" />
-            <marker date="1463084975000" expanded="true" signature="2731:2802" placeholder="SELECT * FRO... follows" />
-            <marker date="1463084975000" expanded="true" signature="2967:3013" placeholder="SELECT * FRO... follows" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/userAccount.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -831,45 +801,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/getPosts.php">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="82" column="90" selection-start-line="82" selection-start-column="82" selection-end-line="82" selection-end-column="90" />
-          <folding>
-            <marker date="1463086076000" expanded="true" signature="1672:1700" placeholder="SELECT * FRO... posts" />
-            <marker date="1463086076000" expanded="true" signature="1672:1758" placeholder="SELECT * FRO... posts" />
-            <marker date="1463086076000" expanded="true" signature="1847:1910" placeholder="SELECT * FRO... posts" />
-            <marker date="1463086076000" expanded="true" signature="2042:2128" placeholder="SELECT * FRO... posts" />
-            <marker date="1463086076000" expanded="true" signature="2266:2355" placeholder="SELECT * FRO... posts" />
-            <marker date="1463086076000" expanded="true" signature="2801:2849" placeholder="SELECT * FRO... users" />
-            <marker date="1463086076000" expanded="true" signature="3527:3627" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/postInteract.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="220">
+          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loadFeed.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/databaseFunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <marker date="1463089583000" expanded="true" signature="167:215" placeholder="SELECT * FRO... users" />
+            <marker date="1463089583000" expanded="true" signature="416:464" placeholder="SELECT * FRO... users" />
+            <marker date="1463089583000" expanded="true" signature="416:482" placeholder="SELECT * FRO... users" />
+            <marker date="1463089583000" expanded="true" signature="669:727" placeholder="SELECT * FRO... users" />
+            <marker date="1463089583000" expanded="true" signature="912:956" placeholder="SELECT * FRO... likes" />
+            <marker date="1463089583000" expanded="true" signature="1160:1225" placeholder="SELECT * FRO... likes" />
+            <marker date="1463089583000" expanded="true" signature="1387:1427" placeholder="SELECT * FRO... users" />
+            <marker date="1463089583000" expanded="true" signature="1540:1580" placeholder="SELECT * FRO... users" />
+            <marker date="1463089583000" expanded="true" signature="1696:1736" placeholder="SELECT * FRO... users" />
+            <marker date="1463089583000" expanded="true" signature="1900:1940" placeholder="SELECT * FRO... posts" />
+            <marker date="1463089583000" expanded="true" signature="2211:2255" placeholder="SELECT * FRO... users" />
+            <marker date="1463089583000" expanded="true" signature="2834:2862" placeholder="DELETE FROM " />
+            <marker date="1463089583000" expanded="true" signature="2834:2876" placeholder="DELETE FROM " />
+            <marker date="1463089583000" expanded="true" signature="3210:3256" placeholder="SELECT * FRO... follows" />
+            <marker date="1463089583000" expanded="true" signature="3210:3281" placeholder="SELECT * FRO... follows" />
+            <marker date="1463089583000" expanded="true" signature="3446:3492" placeholder="SELECT * FRO... follows" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/postInteract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/postInteract.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="360">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <marker date="1463085800000" expanded="true" signature="1070:1171" placeholder="INSERT INTO `follows`... " />
-            <marker date="1463085800000" expanded="true" signature="1413:1474" placeholder="DELETE FROM " />
+            <marker date="1463089345000" expanded="true" signature="1066:1163" placeholder="INSERT INTO `follows`... " />
+            <marker date="1463089345000" expanded="true" signature="1405:1466" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/getPosts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="86" column="112" selection-start-line="86" selection-start-column="112" selection-end-line="86" selection-end-column="112" />
+          <folding>
+            <marker date="1463089696000" expanded="true" signature="1672:1700" placeholder="SELECT * FRO... posts" />
+            <marker date="1463089696000" expanded="true" signature="1672:1758" placeholder="SELECT * FRO... posts" />
+            <marker date="1463089696000" expanded="true" signature="1847:1910" placeholder="SELECT * FRO... posts" />
+            <marker date="1463089696000" expanded="true" signature="2042:2128" placeholder="SELECT * FRO... posts" />
+            <marker date="1463089696000" expanded="true" signature="2266:2355" placeholder="SELECT * FRO... posts" />
+            <marker date="1463089696000" expanded="true" signature="2801:2849" placeholder="SELECT * FRO... users" />
+            <marker date="1463089696000" expanded="true" signature="3940:3976" placeholder="..." />
           </folding>
         </state>
       </provider>

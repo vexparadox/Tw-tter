@@ -10,7 +10,7 @@ $responseText = "";
 $responseType = 0;
 
 //check if the followed user exists
-if(!$follower || !doesPostExist($mysqli, $post)){
+if(!$post || !doesPostExist($mysqli, $post)){
     $responseText = "This post doesn't exist.";
     $responseType = 0;
     die(json_encode(array('text' => $responseText, 'type' => $responseType)));
@@ -34,7 +34,7 @@ if(!checkSession($mysqli)){
 if($action === "like") {
     $date = time();
     if ($mysqli->query("INSERT INTO `likes` (id, userid, postid, time) 
-        VALUES ('0', '$userID', '$follower', '$date')") === TRUE
+        VALUES ('0', '$userID', '$post', '$date')") === TRUE
     ) {
         $responseText = "Post liked.";
         $responseType = 1;

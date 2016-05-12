@@ -79,8 +79,15 @@ if(mysqli_num_rows($sqlPosts)>0){
         }
         //create the html to return, this will be all the posts
         $content = $row['content'];
-        $responseText = $responseText."<div class='post'><small class='blog-post-meta'><a id='link' href='?p=account&u=" . $userID . "'>" . $usernames[$userID] . "</a> at " . $date . "</small>
-        <div class='blog-post'><p>$content</p><small class='blog-post-action' id='postLike' value='{$row['id']}'>Like</small></div></div>";
+        $postID = $row['id'];
+        $numLikes = getNumPostLikes($mysqli, $postID);
+        if(!postLiked($mysqli, $postID)) {
+            $interactString = "<small class='blog-post-action'><span onclick='likePost($postID)'>Like</span></small>";
+        }else{
+            $interactString = "<small class='blog-post-action'><span onclick='unLikePost($postID)'>Unlike</span></small>";
+        }
+        $responseText = $responseText."<div class='post'><small class='blog-post-meta'><a id='link' href='?p=account&u=" . $userID . "'>" . $usernames[$userID] . "</a> at " . $date . " - $numLikes likes</small>
+        <div class='blog-post'><p>$content</p>$interactString</div></div>";
     }
     $responseType = 1;
 }else{
