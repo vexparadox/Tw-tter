@@ -38,11 +38,6 @@ if(!$accountPage || $accountPage === 0)
     //and if you want followers only
     if($allPosts === "false"){
         $follows = getFollows($mysqli, $userID);
-//        if(sizeof($follows) < 1) {
-//            $responseText = "You're not following anyone.";
-//            $responseType = 0;
-//            die(json_encode(array('text' => $responseText, 'type' => $responseType)));
-//        }
         //create the user get statement
         $followSQLString = "`user` = '$userID'";
         foreach ($follows as $followID) {
