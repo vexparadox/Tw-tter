@@ -179,7 +179,9 @@ a{
 }
 
 .blog-post-action{
-    color: #00ca18;
+    color: #6cbb75;
+    cursor:pointer;
+
 }
 
 /*
