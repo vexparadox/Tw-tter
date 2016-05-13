@@ -14,8 +14,6 @@
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <!--<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
 
-<!-- JQUEREY -->
-<script src="../js/jquery-1.12.3.min.js"></script>
 
 <!-- Custom styles for this template -->
 <link href="../css/main.css" rel="stylesheet">

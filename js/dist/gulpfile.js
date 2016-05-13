@@ -1,0 +1,1 @@
+var minify=require("gulp-minify"),gulp=require("gulp");gulp.task("compress",function(){gulp.src("*.js").pipe(minify({ext:{src:"-debug.js",min:".js"},noSource:!0,ignoreFiles:[".combo.js","-min.js"]})).pipe(gulp.dest("dist"))});
